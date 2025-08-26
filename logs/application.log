@@ -1,0 +1,174 @@
+2025-08-26 17:52:52.105  INFO 87078 --- [restartedMain] inSpringBootSecurityThymeleafApplication : Starting RegistrationLoginSpringBootSecurityThymeleafApplication on Jatins-MacBook-Air.local with PID 87078 (/Users/jatinyadav/Desktop/Booking-system/target/classes started by jatinyadav in /Users/jatinyadav/Desktop/Booking-system)
+2025-08-26 17:52:52.108  INFO 87078 --- [restartedMain] inSpringBootSecurityThymeleafApplication : No active profile set, falling back to default profiles: default
+2025-08-26 17:52:52.127  INFO 87078 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-26 17:52:52.128  INFO 87078 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-26 17:52:52.413  INFO 87078 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2025-08-26 17:52:52.440  INFO 87078 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 5 JPA repository interfaces.
+2025-08-26 17:52:52.731  INFO 87078 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-26 17:52:52.735  INFO 87078 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-26 17:52:52.735  INFO 87078 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2025-08-26 17:52:52.766  INFO 87078 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-26 17:52:52.766  INFO 87078 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 638 ms
+2025-08-26 17:52:52.826  INFO 87078 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-08-26 17:52:52.845  INFO 87078 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-26 17:52:52.864  WARN 87078 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-26 17:52:52.868  INFO 87078 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2025-08-26 17:52:52.924  INFO 87078 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2025-08-26 17:52:52.933 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@6a0e48d5
+2025-08-26 17:52:52.933 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@6a0e48d5
+2025-08-26 17:52:52.933 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6a0e48d5
+2025-08-26 17:52:52.934 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@77e9feab
+2025-08-26 17:52:52.934 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@12103703
+2025-08-26 17:52:52.934 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@133f890e
+2025-08-26 17:52:52.934 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@40f6c5aa
+2025-08-26 17:52:52.934 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@40f6c5aa
+2025-08-26 17:52:52.934 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@40f6c5aa
+2025-08-26 17:52:52.935 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@1e4b68dd
+2025-08-26 17:52:52.935 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@1e4b68dd
+2025-08-26 17:52:52.935 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1e4b68dd
+2025-08-26 17:52:52.935 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@4ecf2ece
+2025-08-26 17:52:52.935 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@4ecf2ece
+2025-08-26 17:52:52.935 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@4ecf2ece
+2025-08-26 17:52:52.936 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@15f3b296
+2025-08-26 17:52:52.936 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@15f3b296
+2025-08-26 17:52:52.936 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@15f3b296
+2025-08-26 17:52:52.936 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@21579900
+2025-08-26 17:52:52.936 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@21579900
+2025-08-26 17:52:52.936 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@21579900
+2025-08-26 17:52:52.937 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@28c12299
+2025-08-26 17:52:52.937 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@28c12299
+2025-08-26 17:52:52.937 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@28c12299
+2025-08-26 17:52:52.937 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@4e31293d
+2025-08-26 17:52:52.938 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@4e31293d
+2025-08-26 17:52:52.938 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@4e31293d
+2025-08-26 17:52:52.938 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@7fe47a46
+2025-08-26 17:52:52.938 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@7fe47a46
+2025-08-26 17:52:52.939 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@27a9ba19
+2025-08-26 17:52:52.939 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@27a9ba19
+2025-08-26 17:52:52.939 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@46d9b50f
+2025-08-26 17:52:52.939 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@46d9b50f
+2025-08-26 17:52:52.940 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@8fc2e62
+2025-08-26 17:52:52.940 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4b9b36fa
+2025-08-26 17:52:52.940 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@6a1e7fd6
+2025-08-26 17:52:52.940 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@6a1e7fd6
+2025-08-26 17:52:52.940 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@2f1ea265
+2025-08-26 17:52:52.940 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@2f1ea265
+2025-08-26 17:52:52.941 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@22046d5
+2025-08-26 17:52:52.941 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@22046d5
+2025-08-26 17:52:52.941 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@6fc5c1c5
+2025-08-26 17:52:52.942 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@6fc5c1c5
+2025-08-26 17:52:52.942 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@208ca329
+2025-08-26 17:52:52.942 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@208ca329
+2025-08-26 17:52:52.942 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@2840a0c9
+2025-08-26 17:52:52.942 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@2840a0c9
+2025-08-26 17:52:52.943 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@58941875
+2025-08-26 17:52:52.943 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@58941875
+2025-08-26 17:52:52.943 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@56badc63
+2025-08-26 17:52:52.943 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@56badc63
+2025-08-26 17:52:52.944 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2f1b8ea5
+2025-08-26 17:52:52.944 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2f1b8ea5
+2025-08-26 17:52:52.944 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@3c0911d9
+2025-08-26 17:52:52.944 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@3c0911d9
+2025-08-26 17:52:52.944 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@15151e0e
+2025-08-26 17:52:52.944 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@15151e0e
+2025-08-26 17:52:52.944 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@6af8c4e8
+2025-08-26 17:52:52.944 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6af8c4e8
+2025-08-26 17:52:52.944 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6af8c4e8
+2025-08-26 17:52:52.945 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@47519a75
+2025-08-26 17:52:52.945 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@3d344bcb
+2025-08-26 17:52:52.945 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@3d344bcb
+2025-08-26 17:52:52.945 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@3d344bcb
+2025-08-26 17:52:52.945 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@4e926829
+2025-08-26 17:52:52.946 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@d79ea76
+2025-08-26 17:52:52.946 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@765c8a39
+2025-08-26 17:52:52.946 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@765c8a39
+2025-08-26 17:52:52.946 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@7afc0b6a
+2025-08-26 17:52:52.946 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@7afc0b6a
+2025-08-26 17:52:52.946 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@54453e79
+2025-08-26 17:52:52.947 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@54453e79
+2025-08-26 17:52:52.947 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@60a83fb7
+2025-08-26 17:52:52.947 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@60a83fb7
+2025-08-26 17:52:52.947 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@b2cbd28
+2025-08-26 17:52:52.948 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@b2cbd28
+2025-08-26 17:52:52.948 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@7762a404
+2025-08-26 17:52:52.949 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@8d0ab98
+2025-08-26 17:52:52.949 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@8d0ab98
+2025-08-26 17:52:52.949 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@8d0ab98
+2025-08-26 17:52:52.949 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@15acdb43
+2025-08-26 17:52:52.949 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@15acdb43
+2025-08-26 17:52:52.949 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@15acdb43
+2025-08-26 17:52:52.950 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@57768a74
+2025-08-26 17:52:52.950 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@1c9c14ef
+2025-08-26 17:52:52.950 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@715beea3
+2025-08-26 17:52:52.950 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@715beea3
+2025-08-26 17:52:52.950 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@715beea3
+2025-08-26 17:52:52.950 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@ae2146b
+2025-08-26 17:52:52.950 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@ae2146b
+2025-08-26 17:52:52.950 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@ae2146b
+2025-08-26 17:52:52.950 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@5e6b0f9f
+2025-08-26 17:52:52.950 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@196841dc
+2025-08-26 17:52:52.951 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@43a0b0f
+2025-08-26 17:52:52.951 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@43a0b0f
+2025-08-26 17:52:52.951 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@38e742
+2025-08-26 17:52:52.951 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@26061f74
+2025-08-26 17:52:52.951 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@26061f74
+2025-08-26 17:52:52.952 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@46bf93f3
+2025-08-26 17:52:52.952 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@46bf93f3
+2025-08-26 17:52:52.952 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7c8c8afb
+2025-08-26 17:52:52.952 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1effdcbe
+2025-08-26 17:52:52.953 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@129fe0d4
+2025-08-26 17:52:52.954 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@34e5ed8b
+2025-08-26 17:52:52.954 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@34e5ed8b
+2025-08-26 17:52:52.954 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@8f9e15a
+2025-08-26 17:52:52.954 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@4266e2d6
+2025-08-26 17:52:52.954 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@6b0cf44b
+2025-08-26 17:52:52.954 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@26d2fdb4
+2025-08-26 17:52:52.954 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@61e63b05
+2025-08-26 17:52:52.954 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@146305bd
+2025-08-26 17:52:52.954 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@18c105d6
+2025-08-26 17:52:52.954 DEBUG 87078 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@294f6427
+2025-08-26 17:52:52.959  INFO 87078 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13fcf515, org.springframework.security.web.context.SecurityContextPersistenceFilter@401b1f50, org.springframework.security.web.header.HeaderWriterFilter@359c2ea4, org.springframework.security.web.csrf.CsrfFilter@5dac4799, org.springframework.security.web.authentication.logout.LogoutFilter@145ef618, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4519dd93, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70a59822, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55eda35d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b5e7bf, org.springframework.security.web.session.SessionManagementFilter@b435f43, org.springframework.security.web.access.ExceptionTranslationFilter@61bad5a4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@500ceb8b]
+2025-08-26 17:52:52.975  INFO 87078 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-26 17:52:53.217  INFO 87078 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-26 17:52:53.227  INFO 87078 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2025-08-26 17:52:53.275 DEBUG 87078 --- [task-1] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@738cddcc] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@44f801db]
+2025-08-26 17:52:53.336 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.BookingStatus
+2025-08-26 17:52:53.336 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.RoleName
+2025-08-26 17:52:53.336 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.ScheduleStatus
+2025-08-26 17:52:53.352 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.BookingStatus
+2025-08-26 17:52:53.352 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.RoleName
+2025-08-26 17:52:53.353 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.ScheduleStatus
+2025-08-26 17:52:53.381 DEBUG 87078 --- [task-1] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@738cddcc] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@18bd2aea]
+2025-08-26 17:52:53.398 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.BookingStatus
+2025-08-26 17:52:53.398 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.BookingStatus
+2025-08-26 17:52:53.465 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.BookingStatus
+2025-08-26 17:52:53.465 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.BookingStatus
+2025-08-26 17:52:53.468 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.RoleName
+2025-08-26 17:52:53.468 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.RoleName
+2025-08-26 17:52:53.473 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.RoleName
+2025-08-26 17:52:53.473 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.RoleName
+2025-08-26 17:52:53.474 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.ScheduleStatus
+2025-08-26 17:52:53.474 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.ScheduleStatus
+2025-08-26 17:52:53.478 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.ScheduleStatus
+2025-08-26 17:52:53.478 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.ScheduleStatus
+2025-08-26 17:52:53.526 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.BookingStatus
+2025-08-26 17:52:53.526 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.BookingStatus
+2025-08-26 17:52:53.526 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.RoleName
+2025-08-26 17:52:53.526 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.RoleName
+2025-08-26 17:52:53.526 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.ScheduleStatus
+2025-08-26 17:52:53.526 DEBUG 87078 --- [task-1] org.hibernate.type.EnumType              : Using NAMED-based conversion for Enum net.javaguides.springboot.model.ScheduleStatus
+2025-08-26 17:52:53.606  INFO 87078 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-26 17:52:53.608 TRACE 87078 --- [task-1] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@18bd2aea] for TypeConfiguration
+2025-08-26 17:52:53.609  INFO 87078 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-26 17:52:53.727  INFO 87078 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-26 17:52:53.748  INFO 87078 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-08-26 17:52:53.816  INFO 87078 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-26 17:52:53.816  INFO 87078 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2025-08-26 17:52:53.937  INFO 87078 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2025-08-26 17:52:53.943  INFO 87078 --- [restartedMain] inSpringBootSecurityThymeleafApplication : Started RegistrationLoginSpringBootSecurityThymeleafApplication in 2.045 seconds (JVM running for 2.35)
+2025-08-26 17:52:57.015  INFO 87078 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-26 17:52:57.016 TRACE 87078 --- [SpringContextShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@18bd2aea] for TypeConfiguration
+2025-08-26 17:52:57.016 DEBUG 87078 --- [SpringContextShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@281efcc9] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@18bd2aea]
+2025-08-26 17:52:57.016  INFO 87078 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-08-26 17:52:57.017  INFO 87078 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-26 17:52:57.022  INFO 87078 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

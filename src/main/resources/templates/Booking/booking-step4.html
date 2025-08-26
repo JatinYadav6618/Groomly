@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>Booking Confirmation</h2>
+    <p>Barber: <span th:text="${selectedBarber.email}"></span></p>
+    <p>Date: <span th:text="${selectedDate}"></span></p>
+    <p>Time Slot: <span th:text="${selectedTimeSlot}"></span></p>
+    <!-- Display other booking details as needed -->
+    <a href="/booking/step3">Back</a>
+</body>
+</html>
