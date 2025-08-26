@@ -1,10 +1,10 @@
-# Barber Booking System💈
+# Groomly💈
 
-The Barber Booking System is a web application built using Thymeleaf, Spring Boot, JPA, and Spring Security. It allows customers to book appointments with barbers and manage their bookings efficiently. This README file provides an overview of the project, instructions for setting up and running the application, and other relevant information.
+The Groomly is a web application built using Thymeleaf, Spring Boot, JPA, and Spring Security. It allows customers to book appointments with barbers and manage their bookings efficiently. This README file provides an overview of the project, instructions for setting up and running the application, and other relevant information.
 
 ## Features
 
-The Barber Booking System includes the following features:
+The Groomly includes the following features:
 
 - **User Registration and Authentication**: Customers can create an account, log in, and manage their profile information. Spring Security is used for secure user authentication and authorization.
 
@@ -18,7 +18,7 @@ The Barber Booking System includes the following features:
 
 ## Technologies Used
 
-The Barber Booking System utilizes the following technologies:
+The Groomly utilizes the following technologies:
 
 - **Thymeleaf**: Thymeleaf is a Java-based templating engine that allows for server-side rendering of dynamic web pages. It integrates seamlessly with Spring Boot and enables the creation of dynamic HTML templates.
 
@@ -30,7 +30,7 @@ The Barber Booking System utilizes the following technologies:
 
 ## Prerequisites
 
-Before running the Barber Booking System, ensure you have the following prerequisites installed:
+Before running the Groomly, ensure you have the following prerequisites installed:
 
 - Java Development Kit (JDK): Install the JDK to run Java applications.
 
