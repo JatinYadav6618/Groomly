@@ -86,7 +86,7 @@
                                                 <div class="w-100 d-flex align-items-center justify-content-between">
                                                     <div>
                                                         <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Add User</h6>
-                                                        <span class="text-sm">Register a ClaytonXP user</span>
+                                                        <span class="text-sm">Register a new user</span>
                                                     </div>
 
                                                 </div>
@@ -155,7 +155,7 @@
                                                 <div class="w-100 d-flex align-items-center justify-content-between">
                                                     <div>
                                                         <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Add Service</h6>
-                                                        <span class="text-sm">Register a ClaytonXP service</span>
+                                                        <span class="text-sm">Register a new service</span>
                                                     </div>
 
                                                 </div>
@@ -212,7 +212,7 @@
                                                 <div class="w-100 d-flex align-items-center justify-content-between">
                                                     <div>
                                                         <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Add Barber Schedule</h6>
-                                                        <span class="text-sm">Add a ClaytonXP Barber schedule</span>
+                                                        <span class="text-sm">Add a new Barber schedule</span>
                                                     </div>
 
                                                 </div>
@@ -290,7 +290,7 @@
                                                 <div class="w-100 d-flex align-items-center justify-content-between">
                                                     <div>
                                                         <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Book!</h6>
-                                                        <span class="text-sm">Book a Clayton's experience!</span>
+                                                        <span class="text-sm">Book a Groomly's experience!</span>
                                                     </div>
 
                                                 </div>
@@ -323,7 +323,7 @@
                             </li>
                             <li class="nav-item my-auto ms-3 ms-lg-0">
                                 <a th:href="@{/booking/step1}"
-                                   class="btn btn-sm btn-outline-dark  bg-gradient-dark  mb-0 me-1 mt-2 mt-md-0" th:unless="${#authorization.expression('isAuthenticated()')}">Book A Clay's Experience!</a>
+                                   class="btn btn-sm btn-outline-dark  bg-gradient-dark  mb-0 me-1 mt-2 mt-md-0" th:unless="${#authorization.expression('isAuthenticated()')}">Book A Groomly Experience!</a>
                                 <a th:href="@{/logout}"
                                    class="btn btn-sm btn-default mb-0 me-1 mt-2 mt-md-0" th:if="${#authorization.expression('isAuthenticated()')}">Log out</a>
                             </li>

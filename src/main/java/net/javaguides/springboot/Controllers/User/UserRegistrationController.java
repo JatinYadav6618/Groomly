@@ -57,10 +57,10 @@ public class UserRegistrationController {
 			}
 			userService.save(registrationDto);
 			emailSenderService.sendMessage(registrationDto.getPhoneNumber(), "Thank you for registering for our awesome app! " +
-					"Hope you enjoy the Clay's experience");
+					"Hope you enjoy the Groomly experience");
 			emailSenderService.sendMail(registrationDto.getEmail(), new String[]{},
 					"Successful registration", "Thank you for registering for our awesome app! " +
-							"Hope you enjoy the Clay's experience");
+							"Hope you enjoy the Groomly experience");
 		} catch (ApiException e) {
 			// Handle Twilio exception (e.g., unverified email or phone number)
 			// You can add appropriate error handling logic or redirect to an error page
