@@ -18,8 +18,8 @@ public class Schedule {
     @Column(nullable=false, name="time")
     private LocalTime time;
 
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    @JoinColumn(name="barber_id")
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name="barber_id", nullable = false)
     private User barber;
 
     @Enumerated(EnumType.STRING)

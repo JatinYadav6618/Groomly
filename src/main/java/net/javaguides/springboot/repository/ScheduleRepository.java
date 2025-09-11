@@ -39,4 +39,6 @@ public interface ScheduleRepository extends JpaRepository<Schedule, Long> {
     List<LocalTime> findDistinctTimeByBarberAndBookingStatusAndDate(@Param(
             "barber") User barber,
                                                                     @Param("bookingStatus") ScheduleStatus bookingStatus, @Param("date") LocalDate date);
+
+    List<Schedule> findByBarberIdAndDate(Long barberId, LocalDate date);
 }

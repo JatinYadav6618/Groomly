@@ -48,7 +48,7 @@ public class NotificationServiceImpl implements NotificationService {
     public void sendMessage(String toPhoneNumber, String body){
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Message message = Message.creator(
-                new com.twilio.type.PhoneNumber("+263"+toPhoneNumber),
+                new com.twilio.type.PhoneNumber("+91"+toPhoneNumber),
                 new com.twilio.type.PhoneNumber("+12315708326"),
                 body).create();
     }
@@ -58,7 +58,7 @@ public class NotificationServiceImpl implements NotificationService {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         try{
             PhoneNumber phoneNumber =
-                    PhoneNumber.fetcher(new com.twilio.type.PhoneNumber("+263"+phoneNumberTBV)).fetch();
+                    PhoneNumber.fetcher(new com.twilio.type.PhoneNumber("+91"+phoneNumberTBV)).fetch();
             System.out.println(phoneNumber.getCarrier());
             System.out.println(phoneNumber.getCallerName());
         } catch(ApiException e){

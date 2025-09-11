@@ -3,11 +3,14 @@ package net.javaguides.springboot.service.Schedule;
 import net.javaguides.springboot.AppException;
 import net.javaguides.springboot.model.Schedule;
 import net.javaguides.springboot.model.ScheduleStatus;
+import net.javaguides.springboot.model.User;
 import net.javaguides.springboot.repository.ScheduleRepository;
 import net.javaguides.springboot.repository.UserRepository;
 import net.javaguides.springboot.web.dto.ScheduleDto;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -65,5 +68,30 @@ public class ScheduleServiceImpl implements ScheduleService{
         Schedule schedule=findById(id);
         schedule.setStatus(ScheduleStatus.valueOf(scheduleDto.getStatus()));
         return scheduleRepository.save(schedule);
+    }
+
+    @Override
+    public List<Schedule> createSlotsForDay(Long barberId, LocalDate date, LocalTime startTime, LocalTime endTime, int intervalMinutes) {
+        List<Schedule> existing = scheduleRepository.findByBarberIdAndDate(barberId, date);
+        if (!existing.isEmpty()) {
+            return existing;
+        }
+
+        User barber = userRepository.findById(barberId).orElseThrow();
+        List<Schedule> slots = new ArrayList<>();
+        LocalTime slotTime = startTime;
+
+        while (!slotTime.isAfter(endTime.minusMinutes(intervalMinutes))) {
+            Schedule schedule = new Schedule();
+            schedule.setDate(date);
+            schedule.setTime(slotTime);
+            schedule.setBarber(barber);
+            schedule.setStatus(ScheduleStatus.FREE);
+
+            slots.add(schedule);
+            slotTime = slotTime.plusMinutes(intervalMinutes);
+        }
+
+        return scheduleRepository.saveAll(slots);
     }
 }
