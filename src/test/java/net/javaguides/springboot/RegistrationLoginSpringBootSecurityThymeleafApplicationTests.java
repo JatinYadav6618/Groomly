@@ -57,9 +57,8 @@ class RegistrationLoginSpringBootSecurityThymeleafApplicationTests {
 //	@Test
 //	public void findScheduleByDateAndTime(){
 //		BookingDto bookingDto = new BookingDto(
-//                "naman@gmail.com",2L,LocalDate.parse("2025-11" +
-//						"-25",
-//				DateTimeFormatter.ofPattern("yyyy-MM-dd")),"09:00");
+//                "naman@gmail.com",1L,LocalDate.parse("2025-09-11",
+//				DateTimeFormatter.ofPattern("yyyy-MM-dd")),"10:00");
 //		bookingService.save(bookingDto);
 //	}
 //
